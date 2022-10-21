@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src = "morse-code.js" defer></script>
+  <title>Morse Code Translator</title>
+</head>
+<body>
+  <div class="container">
+    <hr>
+    <h3>Morse Code Translator</h3>
+    <hr>
+    <div class ="firstSection">
+      <ul>
+        <li>The listen button will reproduce the code at 12 words per minute.</li>
+        <li>Adjust your speakers/headphones first.</li>
+        <li>Try SOS too! who knows one day it may come in handy!</li>
+      </ul>
+
+    <label>To Morse: <input id="to-morse-input"></label>
+    <button id="to-morse-listen">Listen 🔊</button>
+    <code id="to-morse-output"></code>
+  </div>
+    <ul>
+      <li>Dot: .</li>
+      <li>Dash: -</li>
+      <li>Use one space to separate characters</li>
+      <li>Use double space to separate words</li>
+      <li>Feeling lazy? try this: --. . -  - ---  .-- --- .-. -.-</li>
+    </ul>
+
+    <label>From Morse: <input id="from-morse-input"></label>
+    <button id="from-morse-listen">Listen 🔊</button>
+    <code id="from-morse-output"></code>
+  </div>
+  <script src="tone.js"></script>
+</body>
+</html>

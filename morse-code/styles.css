@@ -1,0 +1,28 @@
+*  {
+box-sizing: border-box; 
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#to-morse-output,
+#from-morse-output {
+  display: block;
+  white-space: normal;
+  word-wrap: break-word;
+  min-height: 80px;
+  background: darkblue;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+}
